@@ -9,16 +9,21 @@
     --margin-logo: 8.5rem 0 2.2rem;
     --width-page: 100vw;
     --title-size: 2.4rem;
+    --title-size-desktop: 4.5rem;
     --paragraph-size: 1.2rem;
     --margin-text: 2.2rem 0;
-    --width-input: 27.4rem;
-    --height-input: 3.6rem;
+    --width-email: 27.4rem;
+    --height-email: 3.6rem;
+    --width-email-desktop: 41.4rem;
+    --height-email-desktop: 5.2rem;
     --width-btn: 28rem;
     --height-btn: 4rem;
-    --border-input-btn: 1px solid var(--color-secondary-blue);
-    --border-input-error: 1px solid var(--color-secondary-red);
-    --border-radius-input-btn: 2rem;
-    --margin-input-btn: 0 0 1rem 0;
+    --width-btn-desktop: 20rem;
+    --height-btn-desktop: 5.6rem;
+    --border-email-btn: 1px solid var(--color-secondary-blue);
+    --border-email-error: 1px solid var(--color-secondary-red);
+    --border-radius-email-btn: 2rem;
+    --margin-email-btn: 0 0 1rem 0;
     --width-image: 32rem;
     --margin-image: 7rem 0 10rem;
     --width-media: 3rem;
@@ -76,14 +81,14 @@ html {
 
 .input__email,
 .input__btn {
-    border: var(--border-input-btn);
-    border-radius: var(--border-radius-input-btn);
-    margin: var(--margin-input-btn);
+    border: var(--border-email-btn);
+    border-radius: var(--border-radius-email-btn);
+    margin: var(--margin-email-btn);
 }
 
 .input__email {
-    width: var(--width-input);
-    height: var(--height-input);
+    width: var(--width-email);
+    height: var(--height-email);
 }
 
 .input__email:focus {
@@ -97,11 +102,11 @@ html {
 }
 
 .error {
-    width: var(--width-input);
-    height: var(--height-input);
-    border: var(--border-input-error);
-    border-radius: var(--border-radius-input-btn);
-    margin: var(--margin-input-btn);
+    width: var(--width-email);
+    height: var(--height-email);
+    border: var(--border-email-error);
+    border-radius: var(--border-radius-email-btn);
+    margin: var(--margin-email-btn);
 }
 
 .error:focus {
@@ -125,6 +130,7 @@ html {
     height: var(--height-btn);
     color: #fff;
     background-color: var(--color-primary);
+    box-shadow: 0rem 15px 30px -5px var(--color-secondary-blue);
     cursor: pointer;
 }
 
@@ -154,17 +160,36 @@ html {
 }
 
 .media__image {
-    filter: invert(47%) sepia(31%) saturate(1408%) hue-rotate(189deg) brightness(96%) contrast(98%);
-    width: 3rem;
     padding: .6rem;
-}
-
-.media__image:hover {
-    filter: invert(9%) sepia(12%) saturate(1907%) hue-rotate(169deg) brightness(102%) contrast(93%);
-    ;
 }
 
 .copy p {
     color: var(--color-neutral-gray);
     margin: var(--margin-text-copy);
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .text__title{
+        font-size: var(--title-size-desktop);
+    }
+
+    .input {
+        flex-direction: row;
+    }
+
+    .input__email {
+        width: var(--width-email-desktop);
+        height: var(--height-email-desktop);
+        margin: 0 1.6rem 0 0;
+    }
+
+    .input__btn {
+        width: var(--width-btn-desktop);
+        height: var(--height-btn-desktop);
+    }
+
+    .image__illustration {
+        width: 64rem;
+    }
 }
