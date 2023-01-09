@@ -12,9 +12,10 @@
     --title-size-desktop: 4.5rem;
     --paragraph-size: 1.2rem;
     --margin-text: 2.2rem 0;
-    --width-email: 27.4rem;
+    --width-email: 24.6rem;
     --height-email: 3.6rem;
-    --width-email-desktop: 41.4rem;
+    --padding-email: 3rem;
+    --width-email-desktop: 38.6rem;
     --height-email-desktop: 5.2rem;
     --width-btn: 28rem;
     --height-btn: 4rem;
@@ -89,6 +90,7 @@ html {
 .input__email {
     width: var(--width-email);
     height: var(--height-email);
+    padding-left: var(--padding-email);
 }
 
 .input__email:focus {
@@ -174,14 +176,23 @@ html {
         font-size: var(--title-size-desktop);
     }
 
+    .text__paragraph {
+        font-size: 2rem;
+    }
+
     .input {
         flex-direction: row;
+        margin: 2.2rem 0 1rem;
     }
 
     .input__email {
         width: var(--width-email-desktop);
         height: var(--height-email-desktop);
         margin: 0 1.6rem 0 0;
+    }
+
+    .input__email::placeholder {
+        font-size: 1.4rem;
     }
 
     .input__btn {
