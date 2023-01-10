@@ -7,14 +7,20 @@ btn.addEventListener('click', (e) => {
 
     const emailValue = email.value;
 
-    //checar se o email é valido
-    if (emailValue === '' && verificaEmail(email.value) !== true) {
+    //checar se está em branco
+    if (emailValue === '') {
 
+        //adicionar a borda vermelha e a mensagem de erro
+        errorMessage.textContent = 'Whoops! It looks like you forgot to add your email';
+        email.classList = "error"
+        return;
+    //checar se o email é valido (envio)
+    } else if (verificaEmail(email.value) !== true){
         //adicionar a borda vermelha e a mensagem de erro
         errorMessage.textContent = 'Please provide a valid email address';
         email.classList = "error"
         return;
-    } else {
+    }else {
         errorMessage.textContent = '';
         email.classList = 'input__email';
     }
@@ -25,7 +31,7 @@ btn.addEventListener('click', (e) => {
 
 email.addEventListener("keyup", () => {
 
-    //checar se o email é valido
+    //checar se o email é valido (digitação)
     if (verificaEmail(email.value) !== true) {
 
         //adicionar a borda vermelha e a mensagem de erro

@@ -100,7 +100,6 @@ html {
 .input__email::placeholder {
     font-size: 1rem;
     color: var(--color-secondary-blue);
-    padding-left: 3rem;
 }
 
 .error {
@@ -108,6 +107,7 @@ html {
     height: var(--height-email);
     border: var(--border-email-error);
     border-radius: var(--border-radius-email-btn);
+    padding-left: var(--padding-email);
     margin: var(--margin-email-btn);
 }
 
@@ -118,7 +118,6 @@ html {
 .error::placeholder {
     font-size: 1rem;
     color: var(--color-secondary-red);
-    padding-left: 3rem;
 }
 
 .input__email-error {
