@@ -43,12 +43,11 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução: [Add solution URL here](https://your-solution-url.com)
-- Site=: [Add live site URL here](https://your-live-site-url.com)
+- Site: [Deployment](https://mathmattar.github.io/ping-comming-soon-page/)
 
 ## Processo
 
-### Built with
+### Construção
 
 - Marcação semântica HTML5;
 - Propriedades personalizadas CSS;
@@ -119,7 +118,7 @@ Primeiro projeto que utilizo variáveis CSS.
 }
 ```
 
-Confirmação de email durante a digitação utilizando o evendo `keydown`.
+Confirmação de email durante a digitação utilizando o evento `keydown`.
 
 ```js
 email.addEventListener("keyup", () => {
