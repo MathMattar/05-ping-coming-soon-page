@@ -4,15 +4,15 @@ Esta é uma solução para o desafio da [Ping coming soon page challenge on Fron
 
 ## Índice
 
-- [Resumo] (#resumo)
-    - [Desafio] (#desafio)
-    - [Screenshot] (#screenshot)
-    - [Links] (#links)
-- [Processo] (#processo)
-    - [Construção] (#construção)
-    - [Aprendizado] (#aprendizado)
-- [Recursos] (#recursos)
-- [Autor] (#Autor)
+- [Resumo](#resumo)
+    - [Desafio](#desafio)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [Processo](#processo)
+    - [Construção](#construção)
+    - [Aprendizado](#aprendizado)
+- [Recursos](#recursos)
+- [Autor](#Autor)
 
 ## Resumo
 
