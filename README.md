@@ -1,6 +1,6 @@
 # Frontend Mentor - Ping coming soon page solution
 
-Esta é uma solução para o desafio da [Ping coming soon page challenge on Frontend Mentor]https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Os desafios do Mentor de Frontend ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o desafio da [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Os desafios do Mentor de Frontend ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Índice
 
