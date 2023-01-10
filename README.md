@@ -31,15 +31,15 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-<span align="center">
+<p align="center">
     <img width="375px" src="assets/presentation/mobile.png"></img>
-</span>
+</p>
 
 ------
 
-<span align="center">
+<p align="center">
     <img width="768px" src="assets/presentation/desktop.png"></img>
-</span>
+</p>
 
 ### Links
 
