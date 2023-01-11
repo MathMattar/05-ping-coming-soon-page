@@ -1,18 +1,18 @@
 # Frontend Mentor - Ping coming soon page solution
 
-Esta é uma solução para o desafio da [Ping coming soon page challenge on Frontend Mentor]https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Os desafios do Mentor de Frontend ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o desafio da [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Os desafios do Mentor de Frontend ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Índice
 
-- [Resumo] (#resumo)
-    - [Desafio] (#desafio)
-    - [Screenshot] (#screenshot)
-    - [Links] (#links)
-- [Processo] (#processo)
-    - [Construção] (#construção)
-    - [Aprendizado] (#aprendizado)
-- [Recursos] (#recursos)
-- [Autor] (#Autor)
+- [Resumo](#resumo)
+    - [Desafio](#desafio)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [Processo](#processo)
+    - [Construção](#construção)
+    - [Aprendizado](#aprendizado)
+- [Recursos](#recursos)
+- [Autor](#Autor)
 
 ## Resumo
 
@@ -31,24 +31,23 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-<span align="center">
+<p align="center">
     <img width="375px" src="assets/presentation/mobile.png"></img>
-</span>
+</p>
 
 ------
 
-<span align="center">
+<p align="center">
     <img width="768px" src="assets/presentation/desktop.png"></img>
-</span>
+</p>
 
 ### Links
 
-- Solução: [Add solution URL here](https://your-solution-url.com)
-- Site=: [Add live site URL here](https://your-live-site-url.com)
+- Site: [Deployment](https://mathmattar.github.io/ping-comming-soon-page/)
 
 ## Processo
 
-### Built with
+### Construção
 
 - Marcação semântica HTML5;
 - Propriedades personalizadas CSS;
@@ -119,7 +118,7 @@ Primeiro projeto que utilizo variáveis CSS.
 }
 ```
 
-Confirmação de email durante a digitação utilizando o evendo `keydown`.
+Confirmação de email durante a digitação utilizando o evento `keydown`.
 
 ```js
 email.addEventListener("keyup", () => {
