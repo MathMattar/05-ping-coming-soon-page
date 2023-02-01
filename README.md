@@ -43,7 +43,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Site: [Deployment](https://mathmattar.github.io/ping-comming-soon-page/)
+- Site: [Ping Comming Soon](https://mathmattar.github.io/05-ping-comming-soon-page/)
 
 ## Processo
 
